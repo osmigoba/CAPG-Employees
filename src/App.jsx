@@ -19,7 +19,7 @@ function App() {
           <NavbarNav />
           <Routes>
             {/* <Route path='/'  exact={true} element={<Login />}></Route> */}
-            <Route path='/home'  exact={true} element={<Home />}></Route>
+            <Route path='/'  exact={true} element={<Home />}></Route>
             <Route path='/employee/manage' exact={true} element={<ManageEmployeesPage />}></Route>
             <Route path='/employee/skills' exact={true} element={<ManageSkillsPage />}></Route>
           </Routes>
